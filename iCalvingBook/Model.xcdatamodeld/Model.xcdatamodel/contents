@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Animal" representedClassName="Animal" syncable="YES">
+        <attribute name="birthDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="birthWeight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calfId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cowId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sireId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weenDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="weenWeight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CalvingSeason" representedClassName="CalvingSeason" syncable="YES">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Animal" positionX="-63" positionY="-18" width="128" height="180"/>
+        <element name="CalvingSeason" positionX="-54" positionY="63" width="128" height="73"/>
+    </elements>
+</model>

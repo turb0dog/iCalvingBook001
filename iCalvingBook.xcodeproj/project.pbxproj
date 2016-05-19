@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25845083183F1B7A00571519 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25845082183F1B7A00571519 /* UIKit.framework */; };
+		25845085183F1B7A00571519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25845084183F1B7A00571519 /* Foundation.framework */; };
+		25845087183F1B7A00571519 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25845086183F1B7A00571519 /* CoreGraphics.framework */; };
+		2584508D183F1B7A00571519 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2584508B183F1B7A00571519 /* InfoPlist.strings */; };
+		2584508F183F1B7A00571519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2584508E183F1B7A00571519 /* main.m */; };
+		25845093183F1B7A00571519 /* iCalvingBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25845092183F1B7A00571519 /* iCalvingBookAppDelegate.m */; };
+		25845095183F1B7A00571519 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25845094183F1B7A00571519 /* Default.png */; };
+		25845097183F1B7A00571519 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25845096183F1B7A00571519 /* Default@2x.png */; };
+		25845099183F1B7A00571519 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25845098183F1B7A00571519 /* Default-568h@2x.png */; };
+		2584509C183F1B7B00571519 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2584509A183F1B7B00571519 /* MainStoryboard_iPhone.storyboard */; };
+		2584509F183F1B7B00571519 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2584509D183F1B7B00571519 /* MainStoryboard_iPad.storyboard */; };
+		258450BD183F1C9900571519 /* DataGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 258450B5183F1C9900571519 /* DataGrid.m */; };
+		258450BE183F1C9900571519 /* DataGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 258450B7183F1C9900571519 /* DataGridCell.m */; };
+		258450BF183F1C9900571519 /* DataGridColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 258450B9183F1C9900571519 /* DataGridColumn.m */; };
+		258450C0183F1C9900571519 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 258450BC183F1C9900571519 /* HeaderView.m */; };
+		258450D0183F203500571519 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 258450C1183F203400571519 /* book.png */; };
+		258450D3183F203500571519 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 258450C5183F203400571519 /* gear.png */; };
+		258450DB183F207600571519 /* iCalvingBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 258450DA183F207600571519 /* iCalvingBookViewController.m */; };
+		258E59BF18E373D100F6B22E /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 258E59BE18E373D100F6B22E /* Data.plist */; };
+		258E59C118E3750E00F6B22E /* iCalvingBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 258E59C018E3750E00F6B22E /* iCalvingBook.plist */; };
+		258E5A1D18EDC71700F6B22E /* AddAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 258E5A1C18EDC71700F6B22E /* AddAnimalViewController.m */; };
+		25A37F4519399612000473CB /* iCalvingBookDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A37F4419399611000473CB /* iCalvingBookDataController.m */; };
+		25A37F48194D4DEE000473CB /* iCalvingBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A37F47194D4DED000473CB /* iCalvingBookCell.m */; };
+		2803E7E01C4AD86A00A71DD4 /* AnimalTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2803E7CB1C4AD86A00A71DD4 /* AnimalTypeViewController.m */; };
+		280C9DAE1CBA1D6500AD9C89 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280C9DAD1CBA1D6500AD9C89 /* CoreData.framework */; };
+		28475B071AA2F45500342FA0 /* DataGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28475B061AA2F45500342FA0 /* DataGridView.m */; };
+		28B984791C9CFF5100C23E9F /* AddSightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B984721C9CFF5100C23E9F /* AddSightingViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2584507F183F1B7A00571519 /* iCalvingBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalvingBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25845082183F1B7A00571519 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25845084183F1B7A00571519 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25845086183F1B7A00571519 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2584508A183F1B7A00571519 /* iCalvingBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCalvingBook-Info.plist"; sourceTree = "<group>"; };
+		2584508C183F1B7A00571519 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2584508E183F1B7A00571519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25845090183F1B7A00571519 /* iCalvingBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCalvingBook-Prefix.pch"; sourceTree = "<group>"; };
+		25845091183F1B7A00571519 /* iCalvingBookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCalvingBookAppDelegate.h; sourceTree = "<group>"; };
+		25845092183F1B7A00571519 /* iCalvingBookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalvingBookAppDelegate.m; sourceTree = "<group>"; };
+		25845094183F1B7A00571519 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25845096183F1B7A00571519 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25845098183F1B7A00571519 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2584509B183F1B7B00571519 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2584509E183F1B7B00571519 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		258450B4183F1C9900571519 /* DataGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGrid.h; sourceTree = "<group>"; };
+		258450B5183F1C9900571519 /* DataGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataGrid.m; sourceTree = "<group>"; };
+		258450B6183F1C9900571519 /* DataGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGridCell.h; sourceTree = "<group>"; };
+		258450B7183F1C9900571519 /* DataGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataGridCell.m; sourceTree = "<group>"; };
+		258450B8183F1C9900571519 /* DataGridColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGridColumn.h; sourceTree = "<group>"; };
+		258450B9183F1C9900571519 /* DataGridColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataGridColumn.m; sourceTree = "<group>"; };
+		258450BA183F1C9900571519 /* DataGridDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGridDelegate.h; sourceTree = "<group>"; };
+		258450BB183F1C9900571519 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		258450BC183F1C9900571519 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		258450C1183F203400571519 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		258450C5183F203400571519 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		258450D9183F207600571519 /* iCalvingBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalvingBookViewController.h; sourceTree = "<group>"; };
+		258450DA183F207600571519 /* iCalvingBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalvingBookViewController.m; sourceTree = "<group>"; };
+		258E59BE18E373D100F6B22E /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = ../Data.plist; sourceTree = "<group>"; };
+		258E59C018E3750E00F6B22E /* iCalvingBook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iCalvingBook.plist; sourceTree = SOURCE_ROOT; };
+		258E5A1B18EDC71600F6B22E /* AddAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAnimalViewController.h; sourceTree = "<group>"; };
+		258E5A1C18EDC71700F6B22E /* AddAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAnimalViewController.m; sourceTree = "<group>"; };
+		25A37F4319399610000473CB /* iCalvingBookDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalvingBookDataController.h; sourceTree = "<group>"; };
+		25A37F4419399611000473CB /* iCalvingBookDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalvingBookDataController.m; sourceTree = "<group>"; };
+		25A37F46194D4DED000473CB /* iCalvingBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCalvingBookCell.h; sourceTree = "<group>"; };
+		25A37F47194D4DED000473CB /* iCalvingBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCalvingBookCell.m; sourceTree = "<group>"; };
+		2803E7CA1C4AD86A00A71DD4 /* AnimalTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalTypeViewController.h; sourceTree = "<group>"; };
+		2803E7CB1C4AD86A00A71DD4 /* AnimalTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalTypeViewController.m; sourceTree = "<group>"; };
+		280C9DAD1CBA1D6500AD9C89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28475B051AA2F45500342FA0 /* DataGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGridView.h; sourceTree = "<group>"; };
+		28475B061AA2F45500342FA0 /* DataGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataGridView.m; sourceTree = "<group>"; };
+		28B984711C9CFF5100C23E9F /* AddSightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSightingViewController.h; sourceTree = "<group>"; };
+		28B984721C9CFF5100C23E9F /* AddSightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSightingViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2584507C183F1B7A00571519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280C9DAE1CBA1D6500AD9C89 /* CoreData.framework in Frameworks */,
+				25845083183F1B7A00571519 /* UIKit.framework in Frameworks */,
+				25845085183F1B7A00571519 /* Foundation.framework in Frameworks */,
+				25845087183F1B7A00571519 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25845076183F1B7900571519 = {
+			isa = PBXGroup;
+			children = (
+				25845088183F1B7A00571519 /* iCalvingBook */,
+				25845081183F1B7A00571519 /* Frameworks */,
+				25845080183F1B7A00571519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25845080183F1B7A00571519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2584507F183F1B7A00571519 /* iCalvingBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25845081183F1B7A00571519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280C9DAD1CBA1D6500AD9C89 /* CoreData.framework */,
+				25845082183F1B7A00571519 /* UIKit.framework */,
+				25845084183F1B7A00571519 /* Foundation.framework */,
+				25845086183F1B7A00571519 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25845088183F1B7A00571519 /* iCalvingBook */ = {
+			isa = PBXGroup;
+			children = (
+				258450B3183F1C9900571519 /* DataGridFramework */,
+				28475B051AA2F45500342FA0 /* DataGridView.h */,
+				28475B061AA2F45500342FA0 /* DataGridView.m */,
+				25845091183F1B7A00571519 /* iCalvingBookAppDelegate.h */,
+				25845092183F1B7A00571519 /* iCalvingBookAppDelegate.m */,
+				25A37F4319399610000473CB /* iCalvingBookDataController.h */,
+				25A37F4419399611000473CB /* iCalvingBookDataController.m */,
+				258E5A1B18EDC71600F6B22E /* AddAnimalViewController.h */,
+				258E5A1C18EDC71700F6B22E /* AddAnimalViewController.m */,
+				2584509A183F1B7B00571519 /* MainStoryboard_iPhone.storyboard */,
+				28B984711C9CFF5100C23E9F /* AddSightingViewController.h */,
+				28B984721C9CFF5100C23E9F /* AddSightingViewController.m */,
+				2803E7CA1C4AD86A00A71DD4 /* AnimalTypeViewController.h */,
+				2803E7CB1C4AD86A00A71DD4 /* AnimalTypeViewController.m */,
+				2584509D183F1B7B00571519 /* MainStoryboard_iPad.storyboard */,
+				258450D9183F207600571519 /* iCalvingBookViewController.h */,
+				258450DA183F207600571519 /* iCalvingBookViewController.m */,
+				258E59BE18E373D100F6B22E /* Data.plist */,
+				258E59C018E3750E00F6B22E /* iCalvingBook.plist */,
+				25A37F46194D4DED000473CB /* iCalvingBookCell.h */,
+				25A37F47194D4DED000473CB /* iCalvingBookCell.m */,
+				258450C1183F203400571519 /* book.png */,
+				258450C5183F203400571519 /* gear.png */,
+				25845089183F1B7A00571519 /* Supporting Files */,
+			);
+			path = iCalvingBook;
+			sourceTree = "<group>";
+		};
+		25845089183F1B7A00571519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2584508A183F1B7A00571519 /* iCalvingBook-Info.plist */,
+				2584508B183F1B7A00571519 /* InfoPlist.strings */,
+				2584508E183F1B7A00571519 /* main.m */,
+				25845090183F1B7A00571519 /* iCalvingBook-Prefix.pch */,
+				25845094183F1B7A00571519 /* Default.png */,
+				25845096183F1B7A00571519 /* Default@2x.png */,
+				25845098183F1B7A00571519 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		258450B3183F1C9900571519 /* DataGridFramework */ = {
+			isa = PBXGroup;
+			children = (
+				258450B4183F1C9900571519 /* DataGrid.h */,
+				258450B5183F1C9900571519 /* DataGrid.m */,
+				258450B6183F1C9900571519 /* DataGridCell.h */,
+				258450B7183F1C9900571519 /* DataGridCell.m */,
+				258450B8183F1C9900571519 /* DataGridColumn.h */,
+				258450B9183F1C9900571519 /* DataGridColumn.m */,
+				258450BA183F1C9900571519 /* DataGridDelegate.h */,
+				258450BB183F1C9900571519 /* HeaderView.h */,
+				258450BC183F1C9900571519 /* HeaderView.m */,
+			);
+			name = DataGridFramework;
+			path = ../DataGridFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2584507E183F1B7A00571519 /* iCalvingBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 258450B0183F1B7B00571519 /* Build configuration list for PBXNativeTarget "iCalvingBook" */;
+			buildPhases = (
+				2584507B183F1B7A00571519 /* Sources */,
+				2584507C183F1B7A00571519 /* Frameworks */,
+				2584507D183F1B7A00571519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCalvingBook;
+			productName = iCalvingBook;
+			productReference = 2584507F183F1B7A00571519 /* iCalvingBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25845077183F1B7A00571519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iCalvingBook;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SquirrelScatSoftware;
+				TargetAttributes = {
+					2584507E183F1B7A00571519 = {
+						DevelopmentTeam = JZ3C27D6B4;
+					};
+				};
+			};
+			buildConfigurationList = 2584507A183F1B7A00571519 /* Build configuration list for PBXProject "iCalvingBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25845076183F1B7900571519;
+			productRefGroup = 25845080183F1B7A00571519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2584507E183F1B7A00571519 /* iCalvingBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2584507D183F1B7A00571519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2584508D183F1B7A00571519 /* InfoPlist.strings in Resources */,
+				25845095183F1B7A00571519 /* Default.png in Resources */,
+				25845097183F1B7A00571519 /* Default@2x.png in Resources */,
+				25845099183F1B7A00571519 /* Default-568h@2x.png in Resources */,
+				2584509C183F1B7B00571519 /* MainStoryboard_iPhone.storyboard in Resources */,
+				2584509F183F1B7B00571519 /* MainStoryboard_iPad.storyboard in Resources */,
+				258450D0183F203500571519 /* book.png in Resources */,
+				258450D3183F203500571519 /* gear.png in Resources */,
+				258E59BF18E373D100F6B22E /* Data.plist in Resources */,
+				258E59C118E3750E00F6B22E /* iCalvingBook.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2584507B183F1B7A00571519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2584508F183F1B7A00571519 /* main.m in Sources */,
+				25845093183F1B7A00571519 /* iCalvingBookAppDelegate.m in Sources */,
+				258450BD183F1C9900571519 /* DataGrid.m in Sources */,
+				258450BE183F1C9900571519 /* DataGridCell.m in Sources */,
+				28475B071AA2F45500342FA0 /* DataGridView.m in Sources */,
+				2803E7E01C4AD86A00A71DD4 /* AnimalTypeViewController.m in Sources */,
+				258450BF183F1C9900571519 /* DataGridColumn.m in Sources */,
+				258450C0183F1C9900571519 /* HeaderView.m in Sources */,
+				258450DB183F207600571519 /* iCalvingBookViewController.m in Sources */,
+				258E5A1D18EDC71700F6B22E /* AddAnimalViewController.m in Sources */,
+				28B984791C9CFF5100C23E9F /* AddSightingViewController.m in Sources */,
+				25A37F4519399612000473CB /* iCalvingBookDataController.m in Sources */,
+				25A37F48194D4DEE000473CB /* iCalvingBookCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2584508B183F1B7A00571519 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2584508C183F1B7A00571519 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2584509A183F1B7B00571519 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2584509B183F1B7B00571519 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2584509D183F1B7B00571519 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2584509E183F1B7B00571519 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		258450AE183F1B7B00571519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		258450AF183F1B7B00571519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		258450B1183F1B7B00571519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalvingBook/iCalvingBook-Prefix.pch";
+				INFOPLIST_FILE = "iCalvingBook/iCalvingBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		258450B2183F1B7B00571519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCalvingBook/iCalvingBook-Prefix.pch";
+				INFOPLIST_FILE = "iCalvingBook/iCalvingBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2584507A183F1B7A00571519 /* Build configuration list for PBXProject "iCalvingBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258450AE183F1B7B00571519 /* Debug */,
+				258450AF183F1B7B00571519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		258450B0183F1B7B00571519 /* Build configuration list for PBXNativeTarget "iCalvingBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258450B1183F1B7B00571519 /* Debug */,
+				258450B2183F1B7B00571519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25845077183F1B7A00571519 /* Project object */;
+}

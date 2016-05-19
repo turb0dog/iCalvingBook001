@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fOd-AR-j1a" kind="relationship" relationship="viewControllers" id="0JW-QG-psH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="-276"/>
+        </scene>
+        <!--First-->
+        <scene sceneID="3tx-NA-7QG">
+            <objects>
+                <viewController title="First" id="R8F-Z1-SZu" customClass="iCalvingBookViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jld-XA-jSD"/>
+                        <viewControllerLayoutGuide type="bottom" id="22i-Ih-O1q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h6Y-sO-MVB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOG-0y-t3i" customClass="DataGridView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="454"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OOG-0y-t3i" firstAttribute="trailing" secondItem="h6Y-sO-MVB" secondAttribute="trailing" id="E7Q-05-Wzz"/>
+                            <constraint firstItem="OOG-0y-t3i" firstAttribute="leading" secondItem="h6Y-sO-MVB" secondAttribute="leading" id="Ktd-Qs-KiT"/>
+                            <constraint firstItem="OOG-0y-t3i" firstAttribute="bottom" secondItem="h6Y-sO-MVB" secondAttribute="bottom" id="dNf-sU-Eay"/>
+                            <constraint firstItem="OOG-0y-t3i" firstAttribute="top" secondItem="h6Y-sO-MVB" secondAttribute="top" id="xLr-zy-VbY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="iCalving Book" image="first" id="fYE-ze-KHD"/>
+                    <navigationItem key="navigationItem" title="iCalvingBook" id="hBY-eE-ycb">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="PVx-WX-j7P">
+                            <connections>
+                                <segue destination="WHN-Vz-c6V" kind="modal" id="OuL-N8-dzA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="an1-GA-b0y" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="-651"/>
+        </scene>
+        <!--iCalving Book-->
+        <scene sceneID="NCh-bH-ubq">
+            <objects>
+                <navigationController id="fOd-AR-j1a" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="iCalving Book" image="111-user.png" id="aW7-2A-1DO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lrL-yw-Tq9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="R8F-Z1-SZu" kind="relationship" relationship="rootViewController" id="Gft-Dm-FcJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzt-xh-rF1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="-651"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g4U-6K-fcl">
+            <objects>
+                <navigationController id="WHN-Vz-c6V" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Zf3-sj-kmS"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="EkK-ES-luT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0vF-ZN-vlA" kind="relationship" relationship="rootViewController" id="dV5-If-LoO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvI-9Y-vbm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="-1304"/>
+        </scene>
+        <!--Add Animal-->
+        <scene sceneID="uby-5i-sJc">
+            <objects>
+                <tableViewController id="0vF-ZN-vlA" customClass="AddAnimalViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YOE-pS-Afe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="HIa-6a-JgS">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="70b-Aw-cqa">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="70b-Aw-cqa" id="Mqf-tt-oXV">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Calf Id" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="w63-us-xd7">
+                                                    <rect key="frame" x="20" y="11" width="129" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wxt-4T-JEC">
+                                                    <rect key="frame" x="157" y="7" width="155" height="30"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="0vF-ZN-vlA" id="C8B-lF-1La"/>
+                            <outlet property="delegate" destination="0vF-ZN-vlA" id="QSh-fv-FCB"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Add Animal" id="nae-kN-ZzB">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="jQN-Ec-G7i">
+                            <connections>
+                                <action selector="cancel:" destination="0vF-ZN-vlA" id="b7o-g8-lck"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="Ghf-Yx-NKY">
+                            <connections>
+                                <action selector="doneAction:" destination="0vF-ZN-vlA" id="BkJ-OI-AfI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KRg-au-KeY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2168" y="-1304"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="111-user.png" width="16" height="16"/>
+        <image name="first" width="16" height="16"/>
+    </resources>
+</document>
